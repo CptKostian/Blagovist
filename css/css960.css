@@ -1,0 +1,401 @@
+@media(max-width:960px) {
+	body {
+	margin: 0;
+	width: 100%;
+	height: 1082px;
+}
+	#header {
+	width: 960px;
+	height: 1082px;
+	background-color: #ececec;
+	margin: 0 auto;
+	box-shadow: 0 0 60px black;
+}
+	#up {
+	width: 100%;
+	height: 82px;
+	background-color: #f3f3f3;
+}
+	#logo {
+	width: 188px;
+	padding: 21px;
+	float: left;
+}
+	#menu {
+	width: 440px;
+	height: 33px;
+	border-right: 1px solid #d3d3d3;
+	border-left: 1px solid #d3d3d3;
+	float: left;
+	margin-top: 22px;
+	font-family: PT Sans Narrow;
+	font-size: 14px;
+	margin-left: -17px;
+}
+#menu2{
+	display: none;
+}
+#okomp {
+	width:91px;
+	margin-left: 10px;
+}
+	#okomp img {
+	position: absolute;
+	margin-left: 40px;
+	margin-top: -1px;
+}
+	#okomp ul {
+	display: none;
+	background-color: #e7e7e7;
+	position: absolute;
+	list-style-type: none;
+	padding: 0;
+	top: 100%;
+	line-height: 40px;
+	float: left;
+	width: 990px;
+	margin-left: -261px;
+	height: 60px;
+	color: #e7e7e7;
+}
+	.three {
+	width: 60px;
+}
+#le {
+	width: 130px;
+}
+	#okomp1{
+	margin-left: 280px;
+}
+	#uslugi img {
+	position: absolute;
+	margin-left: 23px;
+	margin-top: -1px;
+}
+	#uslugi ul {
+	display: none;
+	background-color: #e7e7e7;
+	position: absolute;
+	list-style-type: none;
+	padding: 0;
+	top: 100%;
+	line-height: 40px;
+	float: left;
+	width: 990px;
+	margin-left: -347px;
+	height: 60px;
+	color: #e7e7e7;
+}
+	#uslugi ul li {
+	width: 50px;
+}
+	#uslugi1{
+	margin-left: 280px;
+}
+	#servis img {
+	position: absolute;
+	margin-left: 23px;
+	margin-top: -1px;
+}
+	#servis ul {
+	display: none;
+	background-color: #e7e7e7;
+	position: absolute;
+	list-style-type: none;
+	padding: 0;
+	top: 100%;
+	height: 60px;
+	float: left;
+	width: 990px;
+	margin-left: -403px;
+	color: #e7e7e7;
+	line-height: 40px;
+}
+	#servis ul li {
+	width: 50px;
+}
+	#servis1{
+	margin-left: 370px;
+}
+#novosti {
+	width:123px;
+}
+	#novosti img {
+	position: absolute;
+	margin-left: 55px;
+	margin-top: -1px;
+}
+	#novosti ul {
+	display: none;
+	background-color: #e7e7e7;
+	position: absolute;
+	list-style-type: none;
+	padding: 0;
+	height: 60px;
+	line-height: 40px;
+	top: 100%;
+	float: left;
+	width: 990px;
+	margin-left: -468px;
+	color: #e7e7e7;
+}
+	#novosti ul li {
+	width: 50px;
+}
+	#novosti1{
+	margin-left: 500px;
+}
+	#test li:hover > ul {
+	display: block;
+}
+	#test {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	line-height: 15px;
+	height: 33px;
+	width: 440px;
+	height: 60px;
+	
+}
+	#test li {
+	float: left;
+	position: relative;
+	height: 60px;
+	
+}
+	#test li a {
+	padding: 10px;
+	display: block;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+	#test li:hover a {
+	border-bottom: 1px solid #646262;
+}
+	#tel {
+	width: 254px;
+	height: 82px;
+	float:left;
+	text-align: center;
+	line-height: 82px;
+	font-family: PT Sans Narrow;
+	font-size: 15px;
+	color: #1b3b78;
+	font-weight: 600;
+}
+#tel2 {
+	display: none;
+}
+
+	#lang {
+	width: 51px;
+	height: 82px;
+	float: left;
+	text-align: center;
+	line-height: 82px;
+	font-family: PT Sans Narrow;
+}
+	#lang div img {
+	position: absolute;
+	margin-left: -13px;
+	margin-top: 54px;
+}
+	#lang2 {
+	display: none;
+	width: 80px;
+	height: 60px;
+	margin-left: 880px;
+	position: absolute;
+	background-color: #ececec;
+	text-align: center;
+	line-height: 25px;
+}
+#lang2 div {
+
+	width: 80px;
+}
+#lang3 {
+	display: none;
+}
+	#pokup, #vlad, #arend {
+	float: left;
+	margin: 0 auto;
+	background-size: 100%;
+	width: 320px;
+	height: 320px;
+}
+
+	.button {
+	margin: 0 auto;
+	width: 85px;
+	height: 85px;
+	border: 1px solid white;
+	text-align: center;
+	font-size: 17px;
+	font-family: PT Sans Narrow;
+	
+}
+	.button:hover{
+	background-color: #dadada;
+}
+	.button:hover .text{
+	color: black;
+}
+	.button:hover .barr {
+	background-image: url(../img/barrb.png);
+}
+	.text {
+	margin-top: 11px;
+	color: #fafafa;
+}
+	#text1,#text2,#text3 {
+	text-align: center;
+	margin: 15px;
+	margin-top: 100px;
+	font-size: 25px;
+	font-family: PT Sans Narrow;
+	color: #fafafa;
+}
+	#pokup {
+	background-image: url(../img/1.png); 
+
+}
+	#vlad {
+	background-color: #1b3b78;
+}
+
+	#arend {
+	background-image: url(../img/2.png); 
+}
+	.barr {
+	margin: 5px;
+	margin-top: 33px;
+	width: 35px;
+	height: 11px;
+	background-image: url(../img/barr.png);
+	background-repeat: no-repeat;
+	margin-left: 24px;
+}
+#virtual1,#virtual2,#virtual3 {
+	width: 640px;
+	height: 320px;
+	float: left;
+	line-height: 409px;
+	color: white;
+	font: 30px PT Sans Narrow;
+	position: absolute;
+	margin-top: 320px;
+}
+#virtual1 {
+	background-image:url(../img/3.png);
+}
+#virtual2 {
+	background-image:url(../img/5.jpg);
+}
+#virtual3 {
+	background-image:url(../img/6.png);
+}
+	#text {
+	float: left;
+	margin-left: 190px;
+	margin-top: 140px;
+}
+	#righarr {
+	margin-left: 595px;
+	margin-top: 140px; 
+
+}
+	#leftarr {
+	margin-top: 140px;
+	margin-left: 23px;
+	float: left;
+}
+#news {
+	display: none;
+}
+	#news2 {
+	display: block;
+	width: 320px;
+	height: 320px;
+	float: left;
+	background-color: white;
+	font-family: PT Sans Narrow;
+	font-size: 15px;
+	margin-left: 639px;
+}
+	#news2 div {
+	margin-left: 25px;
+	margin-top: 17px;
+	width: 271px;
+	color: #252525;
+}
+	#news2 h3 {
+	text-decoration: underline;
+	margin-bottom: 5px;
+	color: #1b3b78;
+	font-weight: 100;
+	width: 260px;
+}
+	#about {
+	height: 300px;
+	width: 640px;
+	float: left;
+	background-color: #ececec;
+	font: 15px PT Sans Narrow;
+}
+	#about h2 {
+	margin-top: 50px;
+}
+	#about div {
+	width: 565px;
+	height: 150px;
+	margin-left: 45px;
+
+}
+	#back {
+	height: 216px;
+	float: left;
+	width: 318px;
+	background-color: #ececec;
+	font: 15px PT Sans Narrow;
+	border-left: 1px solid #d3d3d3;
+	margin-top: 50px;
+	font-weight: 100;
+}
+	.head div {
+		margin-top: 12px;
+
+}
+.head {
+		margin-left: 43px;
+	margin-top: 0px;
+	font-weight: 100;
+}
+.head h2 {
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+	#down {
+	width: 960px;
+	height: 60px;
+	float: left;
+	background-color: white;
+}
+	#text5{
+	float: left;
+	font: 15px PT Sans Narrow;
+	line-height: 60px;
+	margin-left: 35px;
+}
+	#text6 {
+	float: right;
+	font: 15px PT Sans Narrow;
+	line-height: 60px;
+	margin-right: 85px;
+}
+	#text6 a {
+	color: #1b3b78;
+}
+}
